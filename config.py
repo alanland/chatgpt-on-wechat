@@ -48,7 +48,7 @@ available_setting = {
     "request_timeout": 60,  # chatgpt请求超时时间，openai接口默认设置为600，对于难问题一般需要较长时间
     "timeout": 120,  # chatgpt重试超时时间，在这个时间内，将会自动重试
     # 语音设置
-    "speech_recognition": False,  # 是否开启语音识别
+    "speech_recognition": True,  # 是否开启语音识别
     "group_speech_recognition": False,  # 是否开启群组语音识别
     "voice_reply_voice": False,  # 是否使用语音回复语音，需要设置对应语音合成引擎的api key
     "always_reply_voice": False,  # 是否一直使用语音回复
