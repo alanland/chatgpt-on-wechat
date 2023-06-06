@@ -5,8 +5,6 @@
   "linkai_app_code": "",
   "proxy": "",
   "single_chat_prefix": [
-    "",
-    " ",
     "bot",
     "@bot"
   ],

@@ -121,7 +121,8 @@ class ChatChannel(Channel):
                 elif context["origin_ctype"] == ContextType.VOICE:  # 如果源消息是私聊的语音消息，允许不匹配前缀，放宽条件
                     pass
                 else:
-                    return None
+                    pass
+                    # return None
             content = content.strip()
             img_match_prefix = check_prefix(content, conf().get("image_create_prefix"))
             if img_match_prefix:
